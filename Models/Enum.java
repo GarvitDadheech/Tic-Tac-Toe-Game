@@ -1,14 +1,16 @@
+package Models;
+
 public class Enum {
-    enum GameStatus {
-        IN_PROGRESS,Ended,Draw
+    public enum GameStatus {
+        IN_PROGRESS,ENDED,DRAW;
     }
-    enum PlayerType {
+    public enum PlayerType {
         HUMAN,BOT;
     }
-    enum CellStatus {
+    public enum CellStatus {
         EMPTY, FILLED,BLOCKED;
     }
-    enum DifficultyLevel {
+    public enum DifficultyLevel {
         EASY, MEDIUM,HARD;
     }
 }
